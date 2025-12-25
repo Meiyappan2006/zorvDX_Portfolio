@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+
+    "jsx": "react-jsx",
+
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+
+    "allowJs": true,
+    "allowImportingTsExtensions": true,
+
+    "isolatedModules": true,
+    "noEmit": true,
+
+    "skipLibCheck": true,
+
+    "types": ["node"],
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
